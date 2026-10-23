@@ -15,6 +15,12 @@ committed here must be fit to publish.
 - For each step, say what to do, what not to do, why, what it costs, and
   whether it changes the account's plan (for example, creating an
   organization upgrades a Free plan account and forfeits its credits).
+- Teach the "why" through the AWS Well-Architected Framework. Every
+  guardrail names the pillar or pillars it serves (operational excellence,
+  security, reliability, performance efficiency, cost optimization,
+  sustainability) and the Well-Architected best practice behind it, so
+  learners meet the framework early and later guides can build on it. Take
+  every opportunity to teach, not just instruct.
 - Start learners out with professional practice: an IAM user with MFA for
   daily work, never the root user. Name the bad practices and explain the
   harm.

@@ -35,8 +35,9 @@ committed here must be fit to publish.
 - **Original words only.** Never copy or closely paraphrase AWS
   documentation (CC BY-SA 4.0, whose share-alike conflicts with our CC BY-NC
   4.0) or third-party material. Cite AWS for facts; explain in our own words.
-- Every edition carries the liability notice (draft in the research repo's
-  `docs/13`, pending approval) before the first step.
+- Every edition carries the approved liability notice (research repo
+  `docs/13`, word for word, with "This guide" read as "This primer") before
+  the first step.
 - American English. "Automate the Cloud" in prose, "Automate the Cloud Inc."
   in legal text.
 

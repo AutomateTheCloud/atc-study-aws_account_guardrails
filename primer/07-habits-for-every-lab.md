@@ -39,7 +39,7 @@ Notice that half the habits happen *after* the interesting part of the lab. That
 
 **What it costs:** $0 (as of 2026-10-23).
 
-**Well-Architected:** Cost optimization · COST03-BP02 Add organization information to cost and usage; Cost optimization · COST04-BP01 Track resources over their lifetime
+**Well-Architected:** Cost optimization · [COST03-BP02 Add organization information to cost and usage](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_monitor_usage_org_information.html); Cost optimization · [COST04-BP01 Track resources over their lifetime](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_decomissioning_resources_track.html)
 
 > **Your turn:** you are about to create a storage bucket for lab 3 of a guide whose short name is `sec`. Write down the two tags you would add.
 >
@@ -63,7 +63,7 @@ At the end of a lab, list what exists before you delete anything. You can't dele
 
 **What it costs:** $0 to search (as of 2026-10-23).
 
-**Well-Architected:** Cost optimization · COST04-BP01 Track resources over their lifetime
+**Well-Architected:** Cost optimization · [COST04-BP01 Track resources over their lifetime](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_decomissioning_resources_track.html)
 
 > **Your turn:** you search Tag Editor for `lab` = `05` and find nothing, yet your zero-spend budget sent an alert after lab 5. Give two reasons the search could have missed the resource.
 >
@@ -98,7 +98,7 @@ Delete each resource through the service that created it. Some services start ot
 
 **What it costs:** deleting is free. What you save depends on the resource.
 
-**Well-Architected:** Cost optimization · COST04-BP03 Decommission resources; Cost optimization · COST04-BP05 Enforce data retention policies; Sustainability · SUS02-BP03 Stop the creation and maintenance of unused assets; Sustainability · SUS04-BP05 Remove unneeded or redundant data
+**Well-Architected:** Cost optimization · [COST04-BP03 Decommission resources](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_decomissioning_resources_decommission.html); Cost optimization · [COST04-BP05 Enforce data retention policies](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_decomissioning_resources_data_retention.html); Sustainability · [SUS02-BP03 Stop the creation and maintenance of unused assets](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_user_a4.html); Sustainability · [SUS04-BP05 Remove unneeded or redundant data](https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/sus_sus_data_a6.html)
 
 > **Your turn:** a friend says, "I stopped my instance, so it's free now." In two sentences, explain what is still costing and what they should do instead.
 >
@@ -124,7 +124,7 @@ AWS's cost data runs about a day behind, so the real proof that cleanup worked c
 
 **What it costs:** $0.
 
-**Well-Architected:** Cost optimization · COST01-BP06 Monitor cost proactively
+**Well-Architected:** Cost optimization · [COST01-BP06 Monitor cost proactively](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_cloud_financial_management_proactive_process.html)
 
 ## Habit 5: write the cleanup down
 
@@ -134,7 +134,7 @@ AWS's cost data runs about a day behind, so the real proof that cleanup worked c
 
 **What it costs:** $0.
 
-**Well-Architected:** Operational excellence · OPS07-BP03 Use runbooks to perform procedures
+**Well-Architected:** Operational excellence · [OPS07-BP03 Use runbooks to perform procedures](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_use_runbooks.html)
 
 ## Habit 6: sign out, and keep AWS in its own browser profile
 
@@ -146,7 +146,7 @@ AWS's cost data runs about a day behind, so the real proof that cleanup worked c
 
 **What it costs:** $0.
 
-**Well-Architected:** no single best practice covers this; it supports the security pillar's design principle "Implement a strong identity foundation".
+**Well-Architected:** no single best practice covers this; it supports the security pillar's design principle "[Implement a strong identity foundation](https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html)".
 
 ## Summary
 

@@ -70,7 +70,7 @@ Add a second MFA device as a backup, so that losing one device doesn't lock you 
 
 **What it costs:** $0 (as of 2026-10-23). **Free plan:** no change.
 
-**Well-Architected:** Security · SEC01-BP02 Secure account root user and properties; Security · SEC02-BP01 Use strong sign-in mechanisms
+**Well-Architected:** Security · [SEC01-BP02 Secure account root user and properties](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html); Security · [SEC02-BP01 Use strong sign-in mechanisms](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html)
 
 ## Confirm the root user has no access keys
 
@@ -87,7 +87,7 @@ An **access key** is a pair of secret strings that lets a program act as a user,
 
 **What it costs:** $0. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC02-BP02 Use temporary credentials; Security · SEC01-BP02 Secure account root user and properties
+**Well-Architected:** Security · [SEC02-BP02 Use temporary credentials](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_unique.html); Security · [SEC01-BP02 Secure account root user and properties](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html)
 
 ## Make sure AWS can reach you
 
@@ -103,7 +103,7 @@ AWS sends billing, security and abuse notices to your account's contacts. **Alte
 
 **What it costs:** $0. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC10-BP01 Identify key personnel and external resources
+**Well-Architected:** Security · [SEC10-BP01 Identify key personnel and external resources](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_incident_response_identify_personnel.html)
 
 ## Let your admin user see billing
 
@@ -115,7 +115,7 @@ By default, IAM users can't open the billing pages, even with full administrator
 
 **What it costs:** $0. **Free plan:** no change.
 
-**Well-Architected:** Cost optimization · COST03-BP05 Configure billing and cost management tools
+**Well-Architected:** Cost optimization · [COST03-BP05 Configure billing and cost management tools](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_monitor_usage_config_tools.html)
 
 ## Know where root activity shows up
 
@@ -137,7 +137,7 @@ Professionals also set up automatic alerts for every root sign-in. For a lab acc
 
 **What it costs:** $0. Viewing Event history is free. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC04-BP01 Configure service and application logging
+**Well-Architected:** Security · [SEC04-BP01 Configure service and application logging](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_detect_investigate_events_app_service_logging.html)
 
 > **Bad practice: daily work as root.** Signing in as root for everyday work is the most common beginner mistake. Every action you take as root runs with no limits. One wrong click, or one stolen session, can touch anything in the account, including billing and the account itself. The Well-Architected security pillar names this as an anti-pattern. Only a few account-level tasks need root, and you've just done the ones a lab account needs now. From [page 03](03-your-everyday-admin-identity.md) on, you work as an IAM user and leave root signed out.
 

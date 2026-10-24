@@ -23,7 +23,7 @@ AWS's help is free for all three. Every account can open account and billing cas
 
 **Confirm:** IAM lists no access keys or users you didn't create, and the IAM dashboard still says the root user has no active access keys. Event history shows nothing new that you don't recognize after your fix. The next day, the Credits page and the Bills page show no new cost from services you didn't use. AWS has answered your case.
 
-**Well-Architected:** Security · SEC10-BP02 Develop incident management plans. This card is a small incident plan; the security pillar's design principle "Prepare for security events" asks you to have one before you need it.
+**Well-Architected:** Security · [SEC10-BP02 Develop incident management plans](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_incident_response_develop_management_plans.html). This card is a small incident plan; the security pillar's design principle "[Prepare for security events](https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html)" asks you to have one before you need it.
 
 ## Track down an unexpected charge
 
@@ -38,7 +38,7 @@ AWS's help is free for all three. Every account can open account and billing cas
 
 **Confirm:** the next day, the service's daily cost in Cost Explorer has stopped growing. On the Free plan, the credit balance has stopped falling faster than expected.
 
-**Well-Architected:** Cost optimization · COST01-BP06 Monitor cost proactively; Cost optimization · COST04-BP03 Decommission resources
+**Well-Architected:** Cost optimization · [COST01-BP06 Monitor cost proactively](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_cloud_financial_management_proactive_process.html); Cost optimization · [COST04-BP03 Decommission resources](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_decomissioning_resources_decommission.html)
 
 ## Get back in after losing an MFA device
 
@@ -68,7 +68,7 @@ In a company, AWS advises that no one person should control both the root email 
 
 **Confirm:** you can sign in with the new device. Each identity's list of MFA devices shows only devices you have. The IAM dashboard says the root user has MFA.
 
-**Well-Architected:** Security · SEC01-BP02 Secure account root user and properties
+**Well-Architected:** Security · [SEC01-BP02 Secure account root user and properties](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html)
 
 ## Check yourself
 

@@ -10,7 +10,7 @@ From now on, you sign in to AWS as an IAM user, not as the root user. On this pa
 
 When you finish, your account has:
 
-- a password policy that meets the CIS AWS Foundations Benchmark's settings for length and reuse;
+- a password policy that meets the [CIS AWS Foundations Benchmark](https://www.cisecurity.org/benchmark/amazon_web_services)'s settings for length and reuse;
 - a group called `Admins` with full administrator permissions;
 - one IAM user for you, in that group, with a passkey and a backup authenticator app;
 - the sign-in address for that user saved in your password manager.
@@ -55,7 +55,7 @@ On the same page you'll see **Role manager**, set to **Disabled**. Leave it off.
 
 **What it costs:** $0. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC02-BP01 Use strong sign-in mechanisms
+**Well-Architected:** Security · [SEC02-BP01 Use strong sign-in mechanisms](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html)
 
 ## Create an Admins group
 
@@ -72,7 +72,7 @@ A **user group** is a set of IAM users who share the same permissions. A **polic
 
 **What it costs:** $0. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC02-BP06 Employ user groups and attributes; Security · SEC03-BP02 Grant least privilege access
+**Well-Architected:** Security · [SEC02-BP06 Employ user groups and attributes](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_groups_attributes.html); Security · [SEC03-BP02 Grant least privilege access](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_permissions_least_privileges.html)
 
 ## Create your IAM user
 
@@ -95,7 +95,7 @@ A **user group** is a set of IAM users who share the same permissions. A **polic
 
 **What it costs:** $0. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC02-BP01 Use strong sign-in mechanisms
+**Well-Architected:** Security · [SEC02-BP01 Use strong sign-in mechanisms](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html)
 
 ## Optional: give the account a friendly alias
 
@@ -134,7 +134,7 @@ Your IAM user has full administrator access, so it needs the same protection as 
 
 **What it costs:** $0. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC02-BP01 Use strong sign-in mechanisms
+**Well-Architected:** Security · [SEC02-BP01 Use strong sign-in mechanisms](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html)
 
 ## Why we don't use IAM Identity Center on the Free plan
 
@@ -150,7 +150,7 @@ When we opened the Identity Center page in our Free plan test account on 2026-10
 
 An IAM user with a strong password and MFA is a sound starting point for a single account. AWS's Startup Security Baseline gives it as the baseline for each person. On the Paid plan there's no Free plan to lose, but this primer still uses an IAM user, so that every learner has the same setup.
 
-**Well-Architected:** Security · SEC02-BP04 Rely on a centralized identity provider. This primer departs from that best practice on purpose, for the reasons above; later guides that use AWS Organizations come back to it.
+**Well-Architected:** Security · [SEC02-BP04 Rely on a centralized identity provider](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_identity_provider.html). This primer departs from that best practice on purpose, for the reasons above; later guides that use AWS Organizations come back to it.
 
 ## Check your work
 

@@ -52,7 +52,7 @@ AWS's guide says Free Tier alerts start out on for standalone accounts. In our n
 
 **Cost:** $0. **Free plan:** on the Free plan, only always-free offers are active, so these alerts cover those offers ([Tracking your AWS Free Tier usage](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/tracking-free-tier-usage.html)).
 
-**Well-Architected:** Cost optimization · COST01-BP06 Monitor cost proactively
+**Well-Architected:** Cost optimization · [COST01-BP06 Monitor cost proactively](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_cloud_financial_management_proactive_process.html)
 
 ## Create a zero-spend budget and earn $20
 
@@ -99,7 +99,7 @@ This template emails you at 85% and 100% of $5, and when AWS forecasts that you 
 
 **Free plan:** Budgets is always free on both plans. The $20 credit should appear on the **Credits** page within about a day; ours posted overnight, expiring 12 months after sign-up. The Free plan ends after 6 months, so that comes first.
 
-**Well-Architected:** Cost optimization · COST01-BP03 Establish cloud budgets and forecasts; Cost optimization · COST01-BP05 Report and notify on cost optimization; Operational excellence · OPS08-BP04 Create actionable alerts
+**Well-Architected:** Cost optimization · [COST01-BP03 Establish cloud budgets and forecasts](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_cloud_financial_management_budget_forecast.html); Cost optimization · [COST01-BP05 Report and notify on cost optimization](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_cloud_financial_management_usage_report.html); Operational excellence · [OPS08-BP04 Create actionable alerts](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_workload_observability_create_alerts.html)
 
 ## Check Cost Explorer and lower the anomaly alert
 
@@ -121,7 +121,7 @@ Treat anomaly alerts as a backstop: they depend on cost data that arrives a day 
 
 **Cost:** $0 in the console; AWS doesn't charge for Cost Anomaly Detection (checked 2026-10-23). **Free plan:** available on both plans.
 
-**Well-Architected:** Cost optimization · COST01-BP06 Monitor cost proactively
+**Well-Architected:** Cost optimization · [COST01-BP06 Monitor cost proactively](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_cloud_financial_management_proactive_process.html)
 
 ## Create a billing alarm in us-east-1
 
@@ -145,7 +145,7 @@ This alarm works separately from Budgets, and you can prove its email path works
 
 **Cost:** CloudWatch's always-free monthly allowance includes 10 alarms (checked 2026-10-23). **Free plan:** no effect. We haven't confirmed that billing alarms work the same on the new sign-up experience.
 
-**Well-Architected:** Operational excellence · OPS08-BP04 Create actionable alerts
+**Well-Architected:** Operational excellence · [OPS08-BP04 Create actionable alerts](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_workload_observability_create_alerts.html)
 
 ## Write down your credits and the plan's end date
 
@@ -164,7 +164,7 @@ AWS says it also emails you when 50%, 25% and 10% of your credits remain, and 15
 
 **Cost:** $0.
 
-**Well-Architected:** Cost optimization · COST01-BP06 Monitor cost proactively
+**Well-Architected:** Cost optimization · [COST01-BP06 Monitor cost proactively](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_cloud_financial_management_proactive_process.html)
 
 ## Check your work
 

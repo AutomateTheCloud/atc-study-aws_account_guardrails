@@ -52,7 +52,7 @@ CloudShell runs as you because AWS hands it your console sign-in, which is a set
 - **Watch for paid commands.** A few commands cost money each time they run. For example, every request to the Cost Explorer API costs $0.01 (checked 2026-10-23). Our labs tell you when a command has a cost.
 - **Free plan:** AWS lists CloudShell as available on both plans (checked 2026-10-23), and it opened normally on our Free plan account. We haven't confirmed how CloudShell behaves on the new sign-up experience.
 
-**Well-Architected:** Security · SEC02-BP02 Use temporary credentials
+**Well-Architected:** Security · [SEC02-BP02 Use temporary credentials](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_unique.html)
 
 ## Use `aws login` if you need the CLI on your own computer
 
@@ -73,7 +73,7 @@ We describe these steps from AWS's CLI guide; we haven't run them in our test ac
 - **Don't** create an access key "just to make the CLI work".
 - **Cost:** $0. **Free plan:** no effect. We haven't confirmed whether `aws login` works on the new sign-up experience.
 
-**Well-Architected:** Security · SEC02-BP02 Use temporary credentials
+**Well-Architected:** Security · [SEC02-BP02 Use temporary credentials](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_unique.html)
 
 ## Bad practice: long-lived access keys for a person, above all on root
 
@@ -91,7 +91,7 @@ Some day, a tool may truly need a key. If that happens:
 
 If you think a key has leaked, follow [page 08](08-when-something-goes-wrong.md) straight away.
 
-**Well-Architected:** Security · SEC02-BP03 Store and use secrets securely; Security · SEC02-BP05 Audit and rotate credentials periodically
+**Well-Architected:** Security · [SEC02-BP03 Store and use secrets securely](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_secrets.html); Security · [SEC02-BP05 Audit and rotate credentials periodically](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_audit.html)
 
 ## Check your work
 

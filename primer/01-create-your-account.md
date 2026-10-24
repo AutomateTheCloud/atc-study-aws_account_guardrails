@@ -22,7 +22,7 @@ Get these ready before you open the sign-up page. Each one is a small guardrail.
 
 **Cost:** $0. **Free plan:** no effect.
 
-**Well-Architected:** Security · SEC01-BP02 Secure account root user and properties
+**Well-Architected:** Security · [SEC01-BP02 Secure account root user and properties](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html)
 
 ### A password manager
 
@@ -32,7 +32,7 @@ Get these ready before you open the sign-up page. Each one is a small guardrail.
 
 **Cost:** nothing from AWS. **Free plan:** no effect.
 
-**Well-Architected:** Security · SEC02-BP01 Use strong sign-in mechanisms
+**Well-Architected:** Security · [SEC02-BP01 Use strong sign-in mechanisms](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html)
 
 ### A phone number you will keep
 
@@ -42,7 +42,7 @@ Get these ready before you open the sign-up page. Each one is a small guardrail.
 
 **Cost:** $0. **Free plan:** no effect.
 
-**Well-Architected:** Security · SEC01-BP02 Secure account root user and properties
+**Well-Architected:** Security · [SEC01-BP02 Secure account root user and properties](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_aws_account.html)
 
 ### A payment card you watch
 
@@ -52,7 +52,7 @@ Get these ready before you open the sign-up page. Each one is a small guardrail.
 
 **Cost:** a USD $1 hold (or the equivalent in your currency) for 3 to 5 days, as of 2026-10-23. **Free plan:** no effect, as long as you don't upgrade.
 
-**Well-Architected:** Cost optimization · no single best practice covers this; it loosely supports the design principle "Implement Cloud Financial Management".
+**Well-Architected:** Cost optimization · no single best practice covers this; it loosely supports the design principle "[Implement Cloud Financial Management](https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-dp.html)".
 
 ## Steps
 
@@ -168,7 +168,7 @@ The screens below are the ones we saw on 2026-10-23. AWS changes them often. If 
 
     **Cost:** $0. **Free plan:** no effect.
 
-    **Well-Architected:** Cost optimization · COST02-BP05 Implement cost controls
+    **Well-Architected:** Cost optimization · [COST02-BP05 Implement cost controls](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_govern_usage_controls.html)
 
 21. On Console Home, find the **Cost and usage** box. Write down the date shown next to **Days remaining**. That is when your Free plan ends.
 
@@ -184,7 +184,7 @@ If a Support plan choice appears, choose **Basic**, which is free. **Don't** buy
 
 **Cost:** $0. **Free plan:** Basic Support is included.
 
-**Well-Architected:** Operational excellence · OPS07-BP06 Create support plans for production workloads (by contrast: a lab account isn't production, so free Basic Support is enough)
+**Well-Architected:** Operational excellence · [OPS07-BP06 Create support plans for production workloads](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_ready_to_support_enable_support_plans.html) (by contrast: a lab account isn't production, so free Basic Support is enough)
 
 ## Your credits and the two clocks
 

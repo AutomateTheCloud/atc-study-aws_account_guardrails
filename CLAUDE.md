@@ -38,6 +38,13 @@ committed here must be fit to publish.
 
 ## Writing
 
+- **Link every reference to a standard.** Every Well-Architected best-practice ID
+  (for example SEC10-BP02) links to its page in the pillar guide; every design
+  principle links to the framework's design-principles page for its pillar; the
+  CIS AWS Foundations Benchmark links to its official page; exam task statements
+  link to the exam guide. Use AWS's current title with the ID. The research
+  repo's `tools/link_refs.py` (with `sources/wa-bp-urls.tsv`) adds these links
+  and flags titles that no longer match; rerun it after edits.
 - **Original words only.** Never copy or closely paraphrase AWS
   documentation (CC BY-SA 4.0, whose share-alike conflicts with our CC BY-NC
   4.0) or third-party material. Cite AWS for facts; explain in our own words.

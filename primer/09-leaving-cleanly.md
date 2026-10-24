@@ -35,7 +35,7 @@ AWS says it emails you when 50, 25 and 10 percent of your credits remain, and 15
 
 **Confirm:** Tag Editor, searching all Regions, finds nothing with your lab tags. The next day, the credit balance on the Credits page is no longer falling. The end date is in your calendar.
 
-**Well-Architected:** Cost optimization · COST04-BP02 Implement a decommissioning process
+**Well-Architected:** Cost optimization · [COST04-BP02 Implement a decommissioning process](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_decomissioning_resources_implement_process.html)
 
 ## Close your account early
 
@@ -51,7 +51,7 @@ AWS says it emails you when 50, 25 and 10 percent of your credits remain, and 15
 
 **Confirm:** within a few minutes, an email confirms that the account is closed. A final bill arrives early the next month for the part of the month you used; on the Free plan it should be $0. You can reopen the account within 90 days; after that AWS closes it for good, deletes what is left in it, and never reuses its account ID.
 
-**Well-Architected:** Cost optimization · COST04-BP02 Implement a decommissioning process
+**Well-Architected:** Cost optimization · [COST04-BP02 Implement a decommissioning process](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_decomissioning_resources_implement_process.html)
 
 ## Check yourself
 

@@ -37,7 +37,7 @@ A new AWS account does not start with every protection on. In the account we cre
 
 **Cost:** $0. **Free plan:** no change.
 
-**Well-Architected:** Security · SEC03-BP07 Analyze public and cross-account access
+**Well-Architected:** Security · [SEC03-BP07 Analyze public and cross-account access](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_permissions_analyze_cross_account.html)
 
 ## EC2: encrypt disks, block public sharing, require IMDSv2
 
@@ -60,7 +60,7 @@ A new AWS account does not start with every protection on. In the account we cre
 
 **Why:** every new disk is encrypted at rest, with no extra work in each lab. The page noted (2026-10-23) that you can then launch only instance types that support EBS encryption. **Cost:** the AWS managed key `aws/ebs` costs nothing to create or keep; each use of it is billed, at amounts too small to notice in labs (checked 2026-10-23).
 
-**Well-Architected:** Security · SEC08-BP02 Enforce encryption at rest
+**Well-Architected:** Security · [SEC08-BP02 Enforce encryption at rest](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_protect_data_rest_encrypt.html)
 
 **Block public sharing of snapshots and AMIs.**
 
@@ -71,7 +71,7 @@ A new AWS account does not start with every protection on. In the account we cre
 
 **Why:** a public snapshot or AMI lets anyone copy your disk and read it. **Cost:** AWS's pages state no price for the snapshot setting; we expect it is free but haven't been able to confirm (2026-10-23).
 
-**Well-Architected:** Security · SEC03-BP07 Analyze public and cross-account access
+**Well-Architected:** Security · [SEC03-BP07 Analyze public and cross-account access](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_permissions_analyze_cross_account.html)
 
 **Make IMDSv2 the default.** The **instance metadata service (IMDS)** lets a running instance look up facts about itself. Version 2 (IMDSv2) requires a session token with each request, a protection version 1 lacks. Older guides launch instances that still allow version 1.
 
@@ -82,13 +82,13 @@ A new AWS account does not start with every protection on. In the account we cre
 
 **Cost:** no price is stated; we expect it is free but haven't been able to confirm (2026-10-23).
 
-**Well-Architected:** No single best practice covers IMDS. This step supports the security pillar's design principle "Apply security at all layers."
+**Well-Architected:** No single best practice covers IMDS. This step supports the security pillar's design principle "[Apply security at all layers](https://docs.aws.amazon.com/wellarchitected/latest/framework/sec-design.html)."
 
 **A rule for every later lab: never open SSH or RDP to the world.** A **security group** is a firewall around an instance; by default it lets nothing in. To log in, a lab may have you open port 22 (SSH, for Linux) or 3389 (RDP, for Windows). Allow it only from your own computer's address (look for a source option such as **My IP**). Better, use a method that needs no open port, such as EC2 Instance Connect or Session Manager, when a lab offers one. Never set the source to `0.0.0.0/0`, which means "anywhere on the internet".
 
 > **Bad practice: "SSH or RDP open to the world."** Anyone on the internet can then try to sign in to your instance, and automated tools scan for these ports constantly. Trusted Advisor flags this rule for that reason.
 
-**Well-Architected:** Security · SEC05-BP02 Control traffic flow within your network layers; Security · SEC06-BP03 Reduce manual management and interactive access
+**Well-Architected:** Security · [SEC05-BP02 Control traffic flow within your network layers](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_network_protection_layered.html); Security · [SEC06-BP03 Reduce manual management and interactive access](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_protect_compute_reduce_manual_management.html)
 
 ## IAM: create one free analyzer, and leave Role manager off
 
@@ -112,7 +112,7 @@ A new AWS account does not start with every protection on. In the account we cre
 17. In the left menu, choose **Account settings** and find **Role manager**.
     **You should see:** it is disabled. Leave it off. On 2026-10-23 the page warned that its roles "are often highly permissive": they grant more access than a task needs.
 
-**Well-Architected:** Security · SEC03-BP07 Analyze public and cross-account access
+**Well-Architected:** Security · [SEC03-BP07 Analyze public and cross-account access](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_permissions_analyze_cross_account.html)
 
 ## CloudTrail: see what happened in your account
 
@@ -126,7 +126,7 @@ A new AWS account does not start with every protection on. In the account we cre
 
 **Don't** create CloudTrail Lake or add *data events*; both cost money. A *trail* that saves logs to S3 is optional: its first copy of management events is free, but the storage uses your credits. **Cost:** $0.
 
-**Well-Architected:** Security · SEC04-BP01 Configure service and application logging
+**Well-Architected:** Security · [SEC04-BP01 Configure service and application logging](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_detect_investigate_events_app_service_logging.html)
 
 ## Trusted Advisor: read the free checks
 
@@ -138,7 +138,7 @@ A new AWS account does not start with every protection on. In the account we cre
 
 **Don't** choose **Upgrade** in the box offering all checks: that buys a paid Support plan you don't need for study. Look here regularly while you run labs. **Cost:** $0.
 
-**Well-Architected:** These fit only loosely; Trusted Advisor is a free way to review your account regularly. Security · SEC01-BP08 Evaluate and implement new security services and features regularly; Cost optimization · COST10-BP02 Review and analyze this workload regularly
+**Well-Architected:** These fit only loosely; Trusted Advisor is a free way to review your account regularly. Security · [SEC01-BP08 Evaluate and implement new security services and features regularly](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_implement_services_features.html); Cost optimization · [COST10-BP02 Review and analyze this workload regularly](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_evaluate_new_services_review_workload.html)
 
 ## Regions: keep the extra ones off and see what already exists
 
@@ -149,14 +149,14 @@ Older Regions are on in every account and can't be turned off. Newer *opt-in* Re
 
 Turning a Region off does not stop charges: resources there keep billing until you delete them. Professionals also add an IAM policy that denies actions outside their Regions; that's optional, because a mistake can block global services such as IAM. **Cost:** $0.
 
-**Well-Architected:** Cost optimization · COST02-BP05 Implement cost controls; Cost optimization · COST07-BP02 Choose Regions based on cost
+**Well-Architected:** Cost optimization · [COST02-BP05 Implement cost controls](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_govern_usage_controls.html); Cost optimization · [COST07-BP02 Choose Regions based on cost](https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost_pricing_model_region_cost.html)
 
 Every Region also has a **default VPC**: a ready-made network with public subnets and a route to the internet. Labs use it. Professionals often delete default VPCs they don't use; for now, leave them, and never launch anything in a Region you don't use.
 
 24. Open **AWS Resource Explorer** and choose **Resources**.
     **You should see:** the default VPC's parts (subnets, an internet gateway, a security group, a network ACL, a route table) and things you made in earlier parts. On 2026-10-23 the first visit said setup had completed; refresh if results look partial.
 
-**Well-Architected:** a loose fit. Security · SEC05-BP01 Create network layers
+**Well-Architected:** a loose fit. Security · [SEC05-BP01 Create network layers](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_network_protection_create_layers.html)
 
 ## The paid security services stay off on the Free plan
 
@@ -168,7 +168,7 @@ Amazon GuardDuty, AWS Security Hub CSPM, Amazon Inspector, Amazon Macie and Amaz
 
 **Don't** choose **Upgrade plan** unless a guide tells you to. Upgrading ends the Free plan for good, and AWS then bills anything your credits don't cover. **On the Paid plan:** these services offer 15- to 30-day trials that turn into billing without asking. Security Hub CSPM also uses AWS Config, which is billed. You turn each one off Region by Region. Put a trial's end date in your calendar before you start it.
 
-**Well-Architected:** Security · SEC04-BP01 Configure service and application logging; Security · SEC01-BP08 Evaluate and implement new security services and features regularly
+**Well-Architected:** Security · [SEC04-BP01 Configure service and application logging](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_detect_investigate_events_app_service_logging.html); Security · [SEC01-BP08 Evaluate and implement new security services and features regularly](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_securely_operate_implement_services_features.html)
 
 ## If you signed up on the new sign-up path
 

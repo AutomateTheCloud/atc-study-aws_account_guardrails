@@ -22,11 +22,11 @@ Every guardrail in this primer protects against one of these risks, or both.
 
 ## The AWS Well-Architected Framework explains the "why"
 
-The **AWS Well-Architected Framework** is AWS's published guidance for building well in the cloud. It groups that guidance into six **pillars**: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. Each pillar has a few broad design principles and a numbered list of **best practices**, with IDs such as `SEC02-BP01`. AWS publishes a whitepaper for each pillar.
+The **AWS Well-Architected Framework** is AWS's published guidance for building well in the cloud. It groups that guidance into six **pillars**: operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability. Each pillar has a few broad design principles and a numbered list of **best practices**, with IDs such as [SEC02-BP01](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html). AWS publishes a whitepaper for each pillar.
 
 This primer uses only a few of those best practices. Each guardrail ends with a tag line like this one:
 
-**Well-Architected:** Security · SEC02-BP01 Use strong sign-in mechanisms
+**Well-Architected:** Security · [SEC02-BP01 Use strong sign-in mechanisms](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_identities_enforce_mechanisms.html)
 
 Later guides use these tags to point back to what you set up here. Most guardrails serve security and cost optimization; later guides cover the other pillars. Where a guardrail doesn't match any best practice, the tag says so.
 
@@ -62,7 +62,7 @@ The Free plan is a guardrail in itself: a forgotten resource uses credits, not y
 
 **What it costs:** $0. **Free plan:** this choice is what keeps you on it.
 
-**Well-Architected:** Cost optimization · no single best practice covers this; it supports the design principle "Implement Cloud Financial Management". The upgrade triggers themselves are AWS account rules, not part of the framework.
+**Well-Architected:** Cost optimization · no single best practice covers this; it supports the design principle "[Implement Cloud Financial Management](https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-dp.html)". The upgrade triggers themselves are AWS account rules, not part of the framework.
 
 ### The new sign-up experience works differently
 

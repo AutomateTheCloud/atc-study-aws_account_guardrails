@@ -156,6 +156,10 @@ Your Free plan ends after six months, or sooner if the credits run out. Then the
 31. Put that end date in your calendar, with a reminder a few weeks before it. Use the date, not the day count. In our account, the counter showed "183 days" both on sign-up day and the next day.
 32. Once a week, check **Credits remaining**, or the **Credits** page in **Billing and Cost Management**, which lists each credit and its expiry date.
 
+![Console Home Cost and usage panel showing credits remaining of 120 dollars and 183 days remaining with the end date in brackets](../images/p24-console-home-cost-widget.png)
+
+*Screenshot: Console Home's Cost and usage panel the day after sign-up, with $120.00 in credits and the plan's end date beside the days remaining, captured 2026-10-24 in our test account. AWS console screenshots are AWS material used as limited fair use and are not covered by this primer's license.*
+
 AWS says it also emails you when 50%, 25% and 10% of your credits remain, and 15, 7 and 2 days before the plan ends ([AWS Free Tier update](https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/), July 2025). We haven't received these yet, so don't rely on them alone.
 
 **Cost:** $0.

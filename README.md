@@ -1,4 +1,4 @@
-# Automate the Cloud Guardrails Primer for New AWS Accounts
+# Setting Up a Safe Account on AWS: Guardrails Before Your First Lab
 
 What to set up in a new AWS account before you run any lab, so a mistake
 can't turn into a large bill or a security problem. It covers cost alerts,

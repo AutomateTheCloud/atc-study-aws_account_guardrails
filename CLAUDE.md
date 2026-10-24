@@ -53,9 +53,13 @@ committed here must be fit to publish.
   badges, or trade dress. Never imply AWS endorsement.
 - AWS service icons only from the AWS Icons for PlantUML set (CC BY-ND 2.0),
   unmodified and credited. Generic icons from openly licensed sets.
-- Screenshots come from our own test accounts, redacted (account IDs, ARNs,
-  emails, phone numbers, card details, MFA QR codes and secrets), and are
-  marked as AWS material used as limited fair use, outside our licenses.
+- Screenshots come from our own test accounts, redacted (email addresses,
+  people's names, phone numbers, postal addresses, card details, MFA QR codes
+  and secrets, keys, IP addresses, user IDs and credit IDs), and are marked as
+  AWS material used as limited fair use, outside our licenses. For the
+  `atc-test-01` test account the owner decided (2026-10-23) that its account
+  ID, alias and company name may show, including inside ARNs. Only screenshots
+  the owner has approved in the private redaction log may enter `images/`.
 
 ## Licensing
 

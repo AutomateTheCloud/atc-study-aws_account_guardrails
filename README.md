@@ -9,7 +9,23 @@ Every Automate the Cloud guide that has you work in your own AWS account
 starts here. The primer is written for people who are new to AWS and
 doesn't depend on any one course.
 
-**Status:** in development. Nothing here is published yet.
+**Status:** first draft, in review. Nothing here is published yet.
+
+## Contents
+
+Work through the pages in order.
+
+0. [Read this first](primer/00-read-this-first.md): the notice, the two risks, the AWS Well-Architected Framework, and choosing the Free plan
+1. [Create your account](primer/01-create-your-account.md)
+2. [Secure the root user](primer/02-secure-the-root-user.md)
+3. [Your everyday admin identity](primer/03-your-everyday-admin-identity.md)
+4. [The command line without access keys](primer/04-command-line-without-access-keys.md)
+5. [Money alarms before you build anything](primer/05-money-alarms.md)
+6. [Safe defaults](primer/06-safe-defaults.md)
+7. [Habits for every lab](primer/07-habits-for-every-lab.md)
+8. [When something goes wrong](primer/08-when-something-goes-wrong.md)
+9. [Leaving cleanly](primer/09-leaving-cleanly.md)
+10. [Bad practices and checklist at a glance](primer/10-bad-practices-and-checklist.md)
 
 ## Editions
 

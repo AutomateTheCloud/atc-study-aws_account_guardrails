@@ -1,0 +1,28 @@
+contract: 1
+id: guardrails
+slug: aws-account-guardrails
+title: "Automate the Cloud Guardrails Primer for New AWS Accounts"
+short_title: "AWS account guardrails"
+summary: >-
+  What to set up in a new AWS account before you run any lab, so a mistake
+  can't turn into a large bill or a security problem.
+status: preview
+content_dir: primer
+catalog_order: 10
+license: cc-by-nc-4.0-with-internal-training
+notices:
+  trademark: >-
+    Automate the Cloud is not affiliated with, endorsed by, or sponsored by
+    Amazon Web Services. AWS and Amazon Web Services are trademarks of
+    Amazon.com, Inc. or its affiliates. They are used here only to identify
+    the service this primer is about.
+  liability: >-
+    This primer is provided as is, without warranty. We work hard to keep it
+    correct and current, but AWS changes often, and its services, prices, and
+    free offers may differ from what is written here. The labs run in your own
+    AWS account. You are responsible for that account, for its security, and for
+    any charges it incurs, including charges from resources you forget to
+    delete. Automate the Cloud Inc. is not liable for any costs, losses, or
+    security incidents that result from following, or failing to follow, this
+    material. Technical guidance here is general information, not advice about
+    your specific systems.

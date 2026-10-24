@@ -1,3 +1,9 @@
+---
+id: guardrails-09
+type: page
+title: "Leave your account cleanly, whether the Free plan ends or you close it yourself"
+---
+
 # Leave your account cleanly, whether the Free plan ends or you close it yourself
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.

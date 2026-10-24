@@ -1,3 +1,9 @@
+---
+id: guardrails-10
+type: page
+title: "Bad practices and guardrail checklist at a glance"
+---
+
 # Bad practices and guardrail checklist at a glance
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.

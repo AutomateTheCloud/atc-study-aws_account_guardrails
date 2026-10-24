@@ -12,7 +12,7 @@ The repository's written content is licensed under the
 (CC BY-NC 4.0). That covers:
 
 - this primer's guidance, checklists, step-by-step instructions, and other
-  written documentation, including material in `courses/`
+  written documentation, including material in `primer/`
 - diagrams and illustrations created by Automate the Cloud Inc., including
   material in `images/`
 - the written text of the website and PDF editions built from them

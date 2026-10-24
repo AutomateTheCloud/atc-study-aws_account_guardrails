@@ -1,3 +1,9 @@
+---
+id: guardrails-01
+type: page
+title: "Create your AWS account with the advanced sign-up and the Free plan"
+---
+
 # Create your AWS account with the advanced sign-up and the Free plan
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.
@@ -148,7 +154,7 @@ The screens below are the ones we saw on 2026-10-23. AWS changes them often. If 
 
     **You should see:** possibly a page from your bank asking you to approve the card check. The screen warned on 2026-10-23 that this might happen.
 
-    > **If something went wrong:** the **Continue** button stays grey → a payment method isn't complete yet → fill in every card field. The bank page fails → contact your bank, then try again.
+    > **If something went wrong:** the **Continue** button stays gray → a payment method isn't complete yet → fill in every card field. The bank page fails → contact your bank, then try again.
 
 ### Land in the console
 

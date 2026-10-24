@@ -1,3 +1,9 @@
+---
+id: guardrails-03
+type: page
+title: "Do your daily work as an IAM user with MFA"
+---
+
 # Do your daily work as an IAM user with MFA
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.
@@ -27,7 +33,7 @@ AWS changes its screens often. The labels below are the ones we saw in our own t
 - **A passkey location and an authenticator app**, as on [page 02](02-secure-the-root-user.md).
 - **About 20 minutes.** IAM has no charge (as of 2026-10-23). In our Free plan test account, nothing on this page changed the plan.
 
-> **If you signed up through AWS's new sign-up experience:** IAM users there can't sign in to the console, so this page doesn't apply as written.
+> **New sign-up path:** IAM users there can't sign in to the console, so this page doesn't apply as written.
 
 ## Set a stronger password policy
 

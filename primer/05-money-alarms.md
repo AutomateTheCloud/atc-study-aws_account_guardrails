@@ -1,3 +1,9 @@
+---
+id: guardrails-05
+type: page
+title: "Set up money alarms before you build anything"
+---
+
 # Set up money alarms before you build anything
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.

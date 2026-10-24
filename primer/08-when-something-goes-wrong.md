@@ -1,3 +1,9 @@
+---
+id: guardrails-08
+type: page
+title: "When something goes wrong, work through the steps in order"
+---
+
 # When something goes wrong, work through the steps in order
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.

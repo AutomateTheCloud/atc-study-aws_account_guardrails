@@ -1,3 +1,9 @@
+---
+id: guardrails-00
+type: page
+title: "Set up guardrails before you run any lab"
+---
+
 # Set up guardrails before you run any lab
 
 A few free settings in a new AWS account stop most beginner mistakes from turning into a large bill or a security problem. This primer walks you through them, once, before your first lab in any Automate the Cloud guide.

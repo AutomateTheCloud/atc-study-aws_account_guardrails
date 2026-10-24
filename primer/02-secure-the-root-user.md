@@ -1,3 +1,9 @@
+---
+id: guardrails-02
+type: page
+title: "Secure the root user, then stop using it"
+---
+
 # Secure the root user, then stop using it
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.
@@ -24,7 +30,7 @@ AWS changes its screens often. The labels below are the ones we saw in our own t
 - **An authenticator app** on your phone, for the backup device. An **authenticator app** shows a six-digit code that keeps changing.
 - **About 25 minutes.** Everything on this page costs $0 (as of 2026-10-23) and doesn't change your Free plan. A hardware security key, if you choose to buy one, is your own cost.
 
-> **If you signed up through AWS's new sign-up experience:** that path has no root user. You register MFA in AWS Settings instead, and alternate contacts don't apply. This page is written for the advanced sign-up path.
+> **New sign-up path:** that path has no root user. You register MFA in AWS Settings instead, and alternate contacts don't apply. This page is written for the advanced sign-up path.
 
 ## Add a passkey to the root user
 

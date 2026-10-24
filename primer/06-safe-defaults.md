@@ -1,3 +1,9 @@
+---
+id: guardrails-06
+type: page
+title: "Check your account's defaults and switch on the free protections"
+---
+
 # Check your account's defaults and switch on the free protections
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.

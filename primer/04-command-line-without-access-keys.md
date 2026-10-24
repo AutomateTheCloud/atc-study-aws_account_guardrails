@@ -1,3 +1,9 @@
+---
+id: guardrails-04
+type: page
+title: "Use the command line without creating access keys"
+---
+
 # Use the command line without creating access keys
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.

@@ -1,3 +1,9 @@
+---
+id: guardrails-07
+type: page
+title: "Six habits keep every lab cheap and easy to clean up"
+---
+
 # Six habits keep every lab cheap and easy to clean up
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.

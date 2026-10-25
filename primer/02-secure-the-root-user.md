@@ -8,7 +8,7 @@ title: "Secure the root user, then stop using it"
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.
 
-The **root user** is the sign-in you created with your email address at sign-up. It can do everything in the account, and nothing can limit it. On this page you lock it down, then you use it only for the rare tasks that need it.
+The **root user** is the sign-in you created with your email address at sign-up. It can do everything in the account, and no policy you attach to it can limit it (only a few things can, such as an explicit deny in a bucket's own policy). On this page you lock it down, then you use it only for the rare tasks that need it.
 
 ## Goal and end state
 

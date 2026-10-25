@@ -31,7 +31,7 @@ You can run every AWS command our labs need without ever creating an access key.
    Our guides use US East (N. Virginia), us-east-1, unless a guide says otherwise. CloudShell opens in whichever Region is selected, and it keeps a separate home folder in each Region.
    > **If something went wrong:** new accounts can start in a different Region. Ours started in US East (Ohio). Changing the selector is safe; it doesn't move or delete anything.
 2. Choose **CloudShell**. On 2026-10-23 it was a link at the bottom left of the console, and also an icon shaped like a small terminal window in the top bar.
-   **You should see:** a dark terminal panel with a tab named `us-east-1` and a `$` prompt. Ours took about 30 seconds to open on the Free plan on 2026-10-23.
+   **You should see:** a dark terminal panel with a tab named `us-east-1` and a `$` prompt. Ours took about 30 seconds to open on the Free plan on 2026-10-23. A **Welcome to AWS CloudShell** window may cover it; on 2026-10-25 it appeared every time CloudShell opened. Choose **Close**, or tick **Do not show again** first.
    > **If something went wrong:** if the tab shows a different Region name, close CloudShell, change the Region selector, and open CloudShell again.
 3. In CloudShell, type this command and press Enter:
 

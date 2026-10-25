@@ -2,7 +2,7 @@
 
 What to set up in a new AWS account before you run any lab, so a mistake
 can't turn into a large bill or a security problem. It covers cost alerts,
-basic account hardening, and the habits that keep an account safe, and it
+basic account hardening, and the habits that keep an account safe. It also
 names the common bad practices and explains why each is dangerous.
 
 Every Automate the Cloud guide that has you work in your own AWS account

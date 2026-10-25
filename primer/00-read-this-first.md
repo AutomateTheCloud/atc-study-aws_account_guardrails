@@ -78,7 +78,7 @@ As of 2026-10-23, the "Create a free account" buttons on AWS's Free Tier page le
 
 AWS changes its services, prices, and free offers faster than it updates its own pages, so its pages sometimes disagree. For example, while we wrote this primer, AWS pages gave both 6 months and 12 months for how long the free offer lasts. We settled what we could by creating a real account and watching: the Free plan lasts 6 months, but the credits themselves showed an expiry date 12 months out. Both were true; they are two different clocks.
 
-We work to be accurate. We date every number that can change, and we tell you when AWS's pages disagree. If a screen or price differs from what we wrote, trust the live AWS page. Each page ends with the AWS pages to check.
+We work to be accurate: we date every number that can change, and we tell you when AWS's pages disagree. If a screen or price differs from what we wrote, trust the live AWS page. Each page ends with the AWS pages to check.
 
 ## How the primer is organized
 

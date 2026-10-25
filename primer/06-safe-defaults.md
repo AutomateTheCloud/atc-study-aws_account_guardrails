@@ -79,7 +79,7 @@ A new AWS account does not start with every protection on. In the account we cre
 
 **Well-Architected:** Security · [SEC03-BP07 Analyze public and cross-account access](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/sec_permissions_analyze_cross_account.html)
 
-**Make IMDSv2 the default.** The **instance metadata service (IMDS)** lets a running instance look up facts about itself. Version 2 (IMDSv2) requires a session token with each request, a protection version 1 lacks. Older guides launch instances that still allow version 1.
+**Make IMDSv2 the default.** The **instance metadata service (IMDS)** lets a running instance look up facts about itself. Version 2 (IMDSv2) requires a session token with each request; version 1 doesn't. Older guides launch instances that still allow version 1.
 
 11. Scroll to the box about IMDS defaults and choose its **Manage** button.
     **You should see:** **Manage IMDS defaults**, with every field at **No preference**.

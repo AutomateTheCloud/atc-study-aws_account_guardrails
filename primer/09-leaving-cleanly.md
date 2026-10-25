@@ -8,7 +8,7 @@ title: "Leave your account cleanly, whether the Free plan ends or you close it y
 
 > **Your account, your responsibility.** Read the [notice](00-read-this-first.md#before-you-start-your-account-your-responsibility) before you follow any step.
 
-Every lab account ends in one of two ways: the Free plan runs out, or you close the account yourself. Either way the goal is the same: nothing you need is left inside, nothing is left running, and nothing surprises you later. This page explains what happens at the end of the Free plan, then gives one card for each way out.
+Every lab account ends in one of two ways: the Free plan runs out, or you close the account yourself. Either way the goal is the same: you have taken out what you need, and nothing is left running to surprise you later. This page explains what happens at the end of the Free plan, then gives one card for each way out.
 
 ## Unless you upgrade, your account closes when the Free plan ends
 

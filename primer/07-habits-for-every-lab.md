@@ -10,7 +10,7 @@ title: "Six habits keep every lab cheap and easy to clean up"
 
 Most surprise costs in a lab account come from something you forgot, not from something you did wrong. Six habits, repeated in every lab, make sure you can find everything you created, delete all of it, and see the result the next day. Each lab in our guides then tells you exactly what to tag, find and delete.
 
-**Who this page is for:** you have worked through pages 01 to 06 and are about to start your first lab. No prior AWS experience assumed.
+**Who this page is for:** you have worked through pages 01 to 06 and are about to start your first lab. You don't need any AWS experience.
 
 **Before you start:** these habits rely on the guardrails from earlier pages. You should be signed in as your IAM admin user with MFA ([page 03](03-your-everyday-admin-identity.md)), not the root user, and your budgets and alerts should exist ([page 05](05-money-alarms.md)). If you skipped those pages, go back first. The habits catch most leftovers; the alarms catch what the habits miss.
 

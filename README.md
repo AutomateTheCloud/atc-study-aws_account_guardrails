@@ -9,7 +9,7 @@ Every Automate the Cloud guide that has you work in your own AWS account
 starts here. The primer is written for people who are new to AWS and
 doesn't depend on any one course.
 
-**Status:** first draft, in review. Nothing here is published yet.
+**Status:** released (latest release `v0.1.1`) and still in review; expect changes.
 
 ## Contents
 

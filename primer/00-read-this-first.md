@@ -44,7 +44,7 @@ Sign up through AWS's **advanced sign-up** link and choose the **Free plan**. [P
 
 During sign-up, AWS asks you to choose an **account plan** (terms as of 2026-10-23):
 
-- **Free plan.** You get USD $100 in credits at sign-up, and you can earn up to $100 more by completing five short activities ($20 each). A **credit** is money AWS gives you to spend on AWS services. You aren't charged while you stay on this plan. The plan lasts up to 6 months, or until your credits run out, whichever comes first. Then the account closes unless you upgrade, and you lose access to what is in it. AWS's pages disagree on the details after that; [page 09](09-leaving-cleanly.md) explains.
+- **Free plan.** You get USD $100 in credits at sign-up, and you can earn up to $100 more by completing five short activities ($20 each). Some of them happen as you learn: in our test account, creating a Lambda function and launching an EC2 instance in labs earned two of them (2026-10-25). A **credit** is money AWS gives you to spend on AWS services. You aren't charged while you stay on this plan. The plan lasts up to 6 months, or until your credits run out, whichever comes first. Then the account closes unless you upgrade, and you lose access to what is in it. AWS's pages disagree on the details after that; [page 09](09-leaving-cleanly.md) explains.
 - **Paid plan.** You get the same credits. When they run out, you pay normal prices for what you use. The account doesn't close, and you can use every AWS service; some, such as Amazon GuardDuty, are Paid plan only.
 
 You can move from the Free plan to the Paid plan, but never back.

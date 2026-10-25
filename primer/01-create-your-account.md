@@ -130,7 +130,7 @@ The screens below are the ones we saw on 2026-10-23. AWS changes them often. If 
 
 11. On **Contact Information**, enter your full name, phone number and address. **Organization name** is optional; leave it empty for a personal account.
 
-    Here your real name is expected. This is different from the account name in step 3, which is a label shown in the console.
+    AWS expects your real name here. This is different from the account name in step 3, which is a label shown in the console.
 
 12. Read the AWS Customer Agreement through the link, then select the checkbox that says you agree to it.
 

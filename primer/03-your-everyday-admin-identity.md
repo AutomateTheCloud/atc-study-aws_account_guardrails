@@ -28,7 +28,7 @@ AWS changes its screens often. The labels below are the ones we saw in our own t
 ## Before you start
 
 - **[Page 02](02-secure-the-root-user.md) finished.** The root user has MFA, and IAM users can see billing. If not, do [page 02](02-secure-the-root-user.md) first.
-- **Signed in as the root user**, with MFA. Root is needed one last time, to create the first IAM user.
+- **Signed in as the root user**, with MFA. You need root one last time, to create the first IAM user.
 - **Your password manager**, to create and store a new password.
 - **A passkey location and an authenticator app**, as on [page 02](02-secure-the-root-user.md).
 - **About 20 minutes.** IAM has no charge (as of 2026-10-23). In our Free plan test account, nothing on this page changed the plan.
@@ -105,7 +105,7 @@ A **user group** is a set of IAM users who share the same permissions. A **polic
 
 ## Optional: give the account a friendly alias
 
-An **account alias** is a name you choose to use in place of your 12-digit account ID when IAM users sign in. It's a convenience, not a security setting: it protects nothing. Don't put personal information in it.
+An **account alias** is a name you choose to use in place of your 12-digit account ID when IAM users sign in. It's a convenience and protects nothing, so don't count it as a security setting. Don't put personal information in it.
 
 20. In IAM's left menu, choose **Dashboard**. In the **AWS Account** panel, next to **Account Alias**, choose **Create**. Type your alias and save it.
     **You should see:** "Alias … created for this account." The **Sign-in URL for IAM users in this account** now starts with your alias. Update the URL in your password manager.

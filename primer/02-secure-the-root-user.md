@@ -156,7 +156,7 @@ Professionals also set up automatic alerts for every root sign-in. For a lab acc
 
 ## Recap
 
-The root user now needs your password plus one of two MFA devices, and it has no keys. AWS can reach you about billing and security. Your future admin user will be able to see billing. You know where to look if you suspect someone used root. Next, on [page 03](03-your-everyday-admin-identity.md), you create the IAM user you will sign in with every day.
+The root user now needs your password plus one of two MFA devices, and it has no keys. AWS can reach you about billing and security, and your future admin user will be able to see billing. You know where to look if you suspect someone used root. Next, on [page 03](03-your-everyday-admin-identity.md), you create the IAM user you will sign in with every day.
 
 ## Check yourself
 

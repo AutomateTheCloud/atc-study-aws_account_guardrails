@@ -72,7 +72,7 @@ The Free plan is a guardrail in itself: a forgotten resource uses credits, not y
 
 ### The new sign-up experience works differently
 
-As of 2026-10-23, the "Create a free account" buttons on AWS's Free Tier page lead to a newer sign-up experience (launched 16 September 2026) that uses a login you already have, such as Google or GitHub. It has no **root user** (the all-powerful sign-in that the advanced sign-up creates). Its **IAM users**, the extra sign-ins you create inside an account, can't use the AWS console website. It also picks your **Region**, the part of the world where your resources run, for you. Only its Paid plan offers spend limits. Our guides are written for the advanced path, so [page 01](01-create-your-account.md) gives you that link directly.
+As of 2026-10-23, the "Create a free account" buttons on AWS's Free Tier page lead to a newer sign-up experience (launched 2026-09-16) that uses a login you already have, such as Google or GitHub. It has no **root user** (the all-powerful sign-in that the advanced sign-up creates). Its **IAM users**, the extra sign-ins you create inside an account, can't use the AWS console website. It also picks your **Region**, the part of the world where your resources run, for you. Only its Paid plan offers spend limits. Our guides are written for the advanced path, so [page 01](01-create-your-account.md) gives you that link directly.
 
 ## AWS is a moving target
 

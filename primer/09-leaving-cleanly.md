@@ -102,7 +102,7 @@ All checked 2026-10-23.
 - [AWS Free Tier Terms](https://aws.amazon.com/free/terms/)
 - [Choosing a plan](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html), AWS Billing User Guide
 - [Tracking your AWS Free Tier usage](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/tracking-free-tier-usage.html), AWS Billing User Guide
-- [AWS Free Tier update: New customers can get started and explore AWS with up to $200 in credits](https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/), AWS News Blog, 15 July 2025
+- [AWS Free Tier update: New customers can get started and explore AWS with up to $200 in credits](https://aws.amazon.com/blogs/aws/aws-free-tier-update-new-customers-can-get-started-and-explore-aws-with-up-to-200-in-credits/), AWS News Blog, 2025-07-15
 - [Close an AWS account](https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-closing.html), AWS Account Management Reference Guide
 - [Understanding unexpected charges](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/checklistforunwantedcharges.html), AWS Billing User Guide
 - [Cost Optimization Pillar](https://docs.aws.amazon.com/pdfs/wellarchitected/latest/cost-optimization-pillar/wellarchitected-cost-optimization-pillar.pdf), AWS Well-Architected Framework
